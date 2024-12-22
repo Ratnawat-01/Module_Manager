@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 600px;
+    height: auto;
+    background-color: #181818; /* Dark background */
+    color: #ddd; /* Lighter text */
+}
+
+#app {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #1e90ff; /* Light blue for headings */
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #444; /* Darker border */
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #333; /* Dark input background */
+    color: #ddd; /* Light text color in inputs */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #1e90ff; /* Light blue background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1c7ed6; /* Darker blue on hover */
+}
+
+#links-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#links-table th, #links-table td {
+    border: 1px solid #444; /* Darker border */
+    padding: 10px;
+    text-align: left;
+}
+
+#links-table th {
+    background-color: #333; /* Dark background for header */
+    color: #fff; /* White text for header */
+}
+
+#links-table tr:nth-child(even) {
+    background-color: #2a2a2a; /* Darker row background */
+}
+
+#links-table tr:hover {
+    background-color: #444; /* Lighten up row on hover */
+}
+
+#links-table td button {
+    padding: 5px 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#links-table td button:hover {
+    background-color: #cc0000; /* Darker red for delete button */
+}
+
+#save-changes {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#save-changes:hover {
+    background-color: #218838; /* Darker green on hover */
+}

@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 400px;
+    background-color: #1c1a29; /* Dark purple background */
+    color: rgb(217, 176, 255); /* Neon text color */
+}
+
+#app {
+    padding: 15px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(217, 176, 255); /* Neon glow color */
+    text-shadow: 0 0 5px rgb(217, 176, 255);
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(100, 61, 136);
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #292135;
+    color: rgb(217, 176, 255);
+    box-shadow: 0 0 5px rgb(217, 176, 255);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(100, 61, 136);
+    color: rgb(217, 176, 255);
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 0.5em rgb(217, 176, 255);
+    transition: transform 0.3s, background-color 0.3s;
+    margin-bottom: 15px; /* Adds space below the button */
+}
+
+
+button:hover {
+    transform: scale(1.05);
+    background-color: rgb(217, 176, 255);
+    color: rgb(100, 61, 136);
+}
+
+#module-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 250px;
+    overflow-y: auto;
+    border: 1px solid rgb(100, 61, 136);
+    border-radius: 5px;
+    background: #292135;
+    box-shadow: 0 0 10px rgb(217, 176, 255);
+}
+
+.module-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid rgb(100, 61, 136);
+    color: rgb(217, 176, 255);
+    background-color: #1c1a29;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.module-item:hover {
+    background-color: rgb(100, 61, 136);
+    color: rgb(217, 176, 255);
+}
+
+.module-item:last-child {
+    border-bottom: none;
+}
+
+.edit-button {
+    flex: 0.7;
+    padding: 5px;
+    background-color: rgb(100, 61, 136);
+    border: none;
+    border-radius: 5px;
+    color: rgb(217, 176, 255);
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 0 0 0.5em rgb(217, 176, 255);
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.edit-button:hover {
+    transform: scale(1.05);
+    background-color: rgb(217, 176, 255);
+    color: rgb(100, 61, 136);
+}
+
+.delete-button {
+    flex: 0.3;
+    padding: 5px;
+    background-color: rgb(153, 0, 51); /* Bright red for delete */
+    border: none;
+    border-radius: 5px;
+    color: rgb(217, 176, 255);
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 0 0 0.5em rgb(217, 176, 255);
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.delete-button:hover {
+    transform: scale(1.05);
+    background-color: rgb(217, 176, 255);
+    color: rgb(153, 0, 51);
+}

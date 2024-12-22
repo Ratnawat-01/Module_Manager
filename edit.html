@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Module</title>
+    <link rel="stylesheet" href="edit.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Edit Module</h1>
+        <input type="text" id="new-link" placeholder="Enter website link">
+        <button id="add-link">Add Link</button>
+
+        <table id="links-table">
+            <thead>
+                <tr>
+                    <th>Website Link</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Links will be dynamically added here -->
+            </tbody>
+        </table>
+
+        <button id="save-changes">Save Changes</button>
+    </div>
+
+    <script src="edit.js"></script>
+</body>
+</html>
